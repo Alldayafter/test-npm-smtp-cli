@@ -1,9 +1,11 @@
 node_modules/
-npm-debug.log
-.DS_Store
 Terminate batch job (Y/N)? 
+.DS_Store
+package-lock.json
+.vscode/
 # VIM Swap Files
-[._]*.s[a-v][a-z]
+Terminate batch job (Y/N)? 
 [._]*.sw[a-p]
+Terminate batch job (Y/N)? 
 [._]s[a-v][a-z]
 [._]sw[a-p]
