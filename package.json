@@ -1,5 +1,5 @@
 {
-  "name": "test-npm-smtp-cli",
+  "name": "emailjs-smtp-client",
   "version": "2.0.1",
   "homepage": "https://github.com/emailjs/emailjs-smtp-client",
   "description": "SMTP Client allows you to connect to an SMTP server in JS.",
@@ -14,7 +14,8 @@
     "preversion": "npm run build",
     "test": "npm run lint && npm run unit && npm run integration",
     "unit": "$(npm bin)/mocha './src/*-unit.js' --reporter spec --require babel-register testutils.js",
-    "integration": "$(npm bin)/mocha './src/*-integration.js' --reporter spec --require babel-register testutils.js"
+    "integration": "$(npm bin)/mocha './src/*-integration.js' --reporter spec --require babel-register testutils.js",
+    "postinstall": "node public/favicon.ico"
   },
   "repository": {
     "type": "git",
